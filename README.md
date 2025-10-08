@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 # DSA-TSC
 Mô phỏng hệ thống giao thông với đèn xanh – đỏ, các tuyến đường.
-=======
+
 # Traffic Sim City – Python Traffic Simulation (BFS/DFS, Dijkstra/A*)
 
 Mô phỏng hệ thống giao thông thành phố với **đèn xanh–đỏ**, **luồng xe**, và **tuyến đường tối ưu**.
@@ -37,4 +36,3 @@ python -m venv .venv
 source .venv/bin/activate
 
 pip install -r requirements.txt
->>>>>>> b46317e (Khởi tạo project TSC)
