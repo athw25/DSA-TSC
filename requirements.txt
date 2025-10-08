@@ -1,0 +1,10 @@
+pyyaml>=6.0.1
+pytest>=8.0.0
+matplotlib>=3.9.0   # tuỳ chọn, dùng nếu sau này vẽ biểu đồ
+numpy>=2.0.0        # tuỳ chọn cho phân tích nâng cao
+
+# dev
+pytest-cov>=5, 
+black>=24.8, 
+ruff>=0.6.8, 
+pre-commit>=3.7 
