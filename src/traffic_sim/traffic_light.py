@@ -9,14 +9,14 @@ class TrafficLight:
         self.offset = offset
 
     def is_green (self, tick: int = None) -> bool:
-        if tick == None:
+        if tick is None:
             tick = self.timer
         pos_in_cycle = (tick - self.offset) % self.cycle
         return pos_in_cycle < self.green_time
 
      
     def tick(self, sec = None):
-        if sec == None:
+        if sec is None:
             if self.is_green():
                 self.timer = (self.offset + self.green_time) % self.cycle
             else:
