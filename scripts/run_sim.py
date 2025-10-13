@@ -9,7 +9,7 @@ import sys
 
 def main():
     parser = argparse.ArgumentParser(description="Chạy demo skeleton (không mô phỏng).")
-    parser.add_argument("--scenario", required=True, help="Đường dẫn file YAML mô tả kịch bản (demo).")
+    parser.add_argument("--scenario", required=True, help="Đường dẫn file YAML mô tả kịch bản.")
     parser.add_argument("--ascii", action="store_true", help="Bật in ASCII (demo).")
     args = parser.parse_args()
 
