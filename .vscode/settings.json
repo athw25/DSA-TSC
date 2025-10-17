@@ -1,0 +1,14 @@
+{
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggest.preview": true,
+  "github.copilot.inlineSuggest.enable": true,
+  "git.autofetch": true,
+  "git.autofetchPeriod": 300,
+  "files.eol": "\n",
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "python.analysis.typeCheckingMode": "basic",
+  "ruff.lint.args": ["--fix"]
+}
