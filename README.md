@@ -1,7 +1,8 @@
 # DSA-TSC
+
 Mô phỏng hệ thống giao thông với đèn xanh – đỏ, các tuyến đường.
 
-# Traffic Sim City – Python Traffic Simulation (BFS/DFS, Dijkstra/A*)
+# Traffic Sim City – Python Traffic Simulation (BFS/DFS, Dijkstra/A\*)
 
 Mô phỏng hệ thống giao thông thành phố với **đèn xanh–đỏ**, **luồng xe**, và **tuyến đường tối ưu**.
 Dành cho bài tập Case Study CTDL & GT: dùng **Graph**, **Queue/Priority Queue**, **BFS/DFS**, **Dijkstra** (có thể mở rộng **A\***).
@@ -22,10 +23,12 @@ Dành cho bài tập Case Study CTDL & GT: dùng **Graph**, **Queue/Priority Que
 ## 2) Cài đặt nhanh
 
 ### Yêu cầu
+
 - Python 3.10+
 - (Tuỳ chọn) virtualenv/venv
 
 ### Bắt đầu
+
 ```bash
 git clone <your-repo-url> traffic-sim-city
 cd traffic-sim-city
@@ -47,6 +50,7 @@ pre-commit install
 python scripts/run_sim.py --scenario data/scenarios/sample.yaml --ticks 10 --ascii
 
 ```
+
 --scenario: đường dẫn YAML kịch bản (data/scenarios/sample.yaml).
 
 --ticks: số bước mô phỏng (ghi đè giá trị trong YAML).

@@ -100,3 +100,10 @@ traffic-sim-city/
 
 - Phải pass: **ruff + black + pytest** (unit/integration).
 - PR nhỏ, có test/doc kèm theo, giữ code dễ đọc.
+
+## Tài liệu tham khảo
+
+- `docs/ARCHITECTURE.md` — kiến trúc & flow.
+- `docs/SCHEMAS.md` — schema CSV/YAML.
+- `docs/SCENARIOS.md` — cách viết scenario.
+- `CONTRIBUTING.md` — quy trình nhánh, PR, DoD.
