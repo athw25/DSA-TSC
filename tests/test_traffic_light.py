@@ -1,2 +1,3 @@
 import pytest
-pytest.skip('skeleton', allow_module_level=True)
+
+pytest.skip("skeleton", allow_module_level=True)

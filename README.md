@@ -36,3 +36,19 @@ python -m venv .venv
 source .venv/bin/activate
 
 pip install -r requirements.txt
+
+#Cài hook kiểm tra trước commit:
+
+pip install pre-commit
+pre-commit install
+
+#Project có sẵn dữ liệu mẫu nhỏ và 1 kịch bản YAML. Lệnh chạy:
+
+python scripts/run_sim.py --scenario data/scenarios/sample.yaml --ticks 10 --ascii
+
+```
+--scenario: đường dẫn YAML kịch bản (data/scenarios/sample.yaml).
+
+--ticks: số bước mô phỏng (ghi đè giá trị trong YAML).
+
+--ascii: bật viewer ASCII để in trạng thái từng tick.
